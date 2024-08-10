@@ -39,6 +39,7 @@ resource "aws_instance" "web" {
 output "instance_public_ip" {
   value = aws_instance.web.public_ip
 }
-output "instance_public_ip" {
-  value = aws_instance.web.public_ip
+
+output "esse_outro_aqui" {
+  value = var.instance_type_esse_aqui
 }
